@@ -10,7 +10,7 @@ using namespace std;
    
 int main（）
 {
-  cout << "Hello World!" <<endl；
+  cout << "Hello World!" << endl;
   /*cout是輸出，而cin是輸入
     <<（插入輸出符）是把句子「流」向cout這個對映了上面的iostream
     >>搭配cin
