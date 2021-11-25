@@ -1,0 +1,27 @@
+#include <iostream>
+/* #iclude必須放在第一位
+   io=inout&output,stream是流
+   中文是io流*/
+   
+using namespace std;
+/*;表示語句結束
+   而namespace是命名空間
+   std是standard*/
+   
+int main（）
+{
+  cout << "Hello World!" <<endl；
+  /*cout是輸出，而cin是輸入
+    <<（插入輸出符）是把句子「流」向cout這個對映了上面的iostream
+    >>搭配cin
+    "是表示輸出句子的範圍
+    end line = endl（縮寫）是換行符*/
+    
+    return 0
+    //回到最初狀態
+    
+  }
+  
+    
+
+
