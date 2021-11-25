@@ -17,10 +17,9 @@ int main（）
     "是表示輸出句子的範圍
     end line = endl（縮寫）是換行符*/
     
-    return 0
+    return 0;
     //回到最初狀態
-    
-  }
+}
   
     
 
