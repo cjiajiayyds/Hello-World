@@ -2,16 +2,38 @@
 
 using namespace std;
 
-int main()
+int
+main ()
 {
-    char a;
-    
-    a = Go to die;
-    if(cin >> a)
-    { 
-      cout << " 007yyds " << endl;
+  int a;
+  int b;
+  int a1;
+  int b1;
+  int b2;
+
+  a = 4;
+  b = 22;
+
+  cout << "Zhengfangxing press 4;changfangxing press 22" << endl;
+
+  if (cin >> a)
+    {
+      cout << "Bianchang:" << endl;
+      cin >> a1;
+      
+      cout << "Mianji:" << a1 * a1 << endl;
     }
     
-    return 0;
+  if  (cin >> b)
+    {
+      cout << "Chang: and press ENTER" << endl;
+      cin >> b1;
+      
+      cout << "Kuang: and press ENTER" << endl;
+      cin >> b2;
+      
+      cout << "Mianji:" << b1*b2 << endl;
+
+  return 0;
 }
  
