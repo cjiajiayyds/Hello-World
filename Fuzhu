@@ -4,4 +4,12 @@ using namespace std;
 
 int main()
 {
+    int a;
+    if(cin >>" Go to die! ")
+    { 
+      cout << " 007yyds " << endl;
+    }
     
+    return 0;
+}
+ 
