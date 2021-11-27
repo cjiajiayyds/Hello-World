@@ -8,24 +8,24 @@ int main ()
   int b2;
   int c;
 
-  cout << "Zhengfangxing press 4;changfangxing press 22" << endl;
+  cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
 
   if (c == 4)
     {
-      cout << "Bianchang:" << endl;
+      cout << "A side:" << endl;
       cin >> a;
       
-      cout << "Mianji:" << a * a << endl;
+      cout << "The area of square:" << a * a << endl;
     }
     
   if (c == 22)
     {
-      cout << "Chang: and Kuang:" << endl;
+      cout << " Length: and Width:" << endl;
       cin >> b1;
       cin >> b2;
       
-      cout << "Mianji:" << b1*b2 << endl;
+      cout << "The area of Rectangle/Parallelogram:" << b1*b2 << endl;
     }
 
   return 0;
