@@ -3,10 +3,11 @@ using namespace std;
 
 int main ()
 {
-  int a;
-  int b1;
-  int b2;
-  int c;
+  long int a;
+  long long b1;
+  long long b2;
+  short int c;
+  //int是integer的缩写
 
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
