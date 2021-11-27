@@ -24,10 +24,8 @@ int main ()
     
   if  (cin >> b)
     {
-      cout << "Chang: and press ENTER" << endl;
+      cout << "Chang: and Kuang:" << endl;
       cin >> b1;
-      
-      cout << "Kuang: and press ENTER" << endl;
       cin >> b2;
       
       cout << "Mianji:" << b1*b2 << endl;
