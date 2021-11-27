@@ -21,7 +21,7 @@ int main ()
     
   if (c == 22)
     {
-      cout << " Length: and Width:" << endl;
+      cout << "A length: and A width:" << endl;
       cin >> b1;
       cin >> b2;
       
