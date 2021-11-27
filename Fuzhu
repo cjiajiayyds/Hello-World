@@ -6,7 +6,7 @@ int main()
 {
     char a;
     
-    a = Go to die
+    a = Go to die;
     if(cin >> a)
     { 
       cout << " 007yyds " << endl;
