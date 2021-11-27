@@ -4,8 +4,10 @@ using namespace std;
 
 int main()
 {
-    int a;
-    if(cin >>" Go to die! ")
+    char a;
+    
+    a = Go to die
+    if(cin >> a)
     { 
       cout << " 007yyds " << endl;
     }
