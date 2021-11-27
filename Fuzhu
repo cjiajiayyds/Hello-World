@@ -4,25 +4,22 @@ using namespace std;
 int main ()
 {
   int a;
-  int b;
-  int a1;
   int b1;
   int b2;
-
-  a = 4;
-  b = 22;
+  int c;
 
   cout << "Zhengfangxing press 4;changfangxing press 22" << endl;
+  cin >> c;
 
-  if (cin >> a)
+  if (c == 4)
     {
       cout << "Bianchang:" << endl;
-      cin >> a1;
+      cin >> a;
       
-      cout << "Mianji:" << a1 * a1 << endl;
+      cout << "Mianji:" << a * a << endl;
     }
     
-  if  (cin >> b)
+  if (c == 22)
     {
       cout << "Chang: and Kuang:" << endl;
       cin >> b1;
@@ -33,4 +30,3 @@ int main ()
 
   return 0;
 }
- 
