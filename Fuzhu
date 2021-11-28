@@ -18,9 +18,9 @@ int main ()
   cin >> c;
   //控制cout的显示精度
   //1.强制以小数方式显示
-  cout << fixed;
-  //2.控制显示的精度
-  cout << setprecision(10);
+  cout << fixed << setprecision(10);
+  //setprecision表示精度
+  //数字表示精度的长度
   
   if (c == 4)
     {
