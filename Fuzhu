@@ -7,7 +7,7 @@ int main ()
 {
   float a1;
   double a;
-  double b1;
+  double b1; “
   long double b2; 
   long double b;
   size_t c;
@@ -20,7 +20,7 @@ int main ()
   //1.强制以小数方式显示
   cout << fixed;
   //2.控制显示的精度
-  cout << setprecision(8);
+  cout << setprecision(10);
   
   if (c == 4)
     {
