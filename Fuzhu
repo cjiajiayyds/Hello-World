@@ -3,10 +3,10 @@ using namespace std;
 
 int main ()
 {
-  long int a;
-  long long b1;
-  size_t b2;
-  short int c;
+  float a;
+  double b1;
+  long double b2;
+  size_t c;
   //int是integer的缩写
   //可以用size_t代替=unsigned int
 
