@@ -5,10 +5,10 @@ int main ()
 {
   long int a;
   long long b1;
-  long long b2;
+  size_t b2;
   short int c;
   //int是integer的缩写
-  //可以用size_t代替
+  //可以用size_t代替=unsigned int
 
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
