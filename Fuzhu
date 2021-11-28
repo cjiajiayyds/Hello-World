@@ -12,9 +12,6 @@ int main ()
   //int是integer的缩写
   //可以用size_t代替=unsigned int
   
-  a = a1*a1;
-  b = b1*b2;
-
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
 
@@ -22,6 +19,7 @@ int main ()
     {
       cout << "A side:" << endl;
       cin >> a1;
+      a = a1*a1;
       
       cout << "The area of square:" << a << endl;
     }
@@ -30,6 +28,7 @@ int main ()
     {
       cout << "A length: and A width:" << endl;
       cin >> b1 >> b2;
+      b = b1*b2;
       
       cout << "The area of Rectangle/Parallelogram:" << b << endl;
     }
