@@ -3,12 +3,17 @@ using namespace std;
 
 int main ()
 {
-  float a;
+  float a1;
+  double a;
   double b1;
   long double b2;
+  long double b;
   size_t c;
   //int是integer的缩写
   //可以用size_t代替=unsigned int
+  
+  a = a1*a1;
+  b = b1*b2;
 
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
@@ -16,9 +21,9 @@ int main ()
   if (c == 4)
     {
       cout << "A side:" << endl;
-      cin >> a;
+      cin >> a1;
       
-      cout << "The area of square:" << a * a << endl;
+      cout << "The area of square:" << a << endl;
     }
     
   if (c == 22)
@@ -26,7 +31,7 @@ int main ()
       cout << "A length: and A width:" << endl;
       cin >> b1 >> b2;
       
-      cout << "The area of Rectangle/Parallelogram:" << b1*b2 << endl;
+      cout << "The area of Rectangle/Parallelogram:" << b << endl;
     }
 
   return 0;
