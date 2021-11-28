@@ -24,8 +24,7 @@ int main ()
   if (c == 22)
     {
       cout << "A length: and A width:" << endl;
-      cin >> b1;
-      cin >> b2;
+      cin >> b1 >> b2;
       
       cout << "The area of Rectangle/Parallelogram:" << b1*b2 << endl;
     }
