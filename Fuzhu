@@ -7,7 +7,7 @@ int main ()
 {
   float a1;
   double a;
-  double b1; “
+  double b1; 
   long double b2; 
   long double b;
   size_t c;
