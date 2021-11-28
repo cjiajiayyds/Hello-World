@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    cout<<"        HiCDL & HiCDL &!"
-        <<"     HiCDL & HiCDL & HiCDL!"
-        <<"     HiCDL & HiCDL & HiCDL &!"
-        <<"  HiCDl & HiCDL & HiCDL & HiCDL!"
-        <<"  HiCDL & HiCDL & HiCDL & HiCDL!"
-        <<"  HiCDL & HiCDL & HiCDL & HiCDL!"
+    cout<<"        HiCDL & HiCDL &!" << endl
+        <<"     HiCDL & HiCDL & HiCDL!" << endl
+        <<"     HiCDL & HiCDL & HiCDL &!" << endl
+        <<"  HiCDl & HiCDL & HiCDL & HiCDL!" << endl
+        <<"  HiCDL & HiCDL & HiCDL & HiCDL!" << endl
+        <<"  HiCDL & HiCDL & HiCDL & HiCDL!" << endl
         <<"     HiCDL & HiCDL & HiCDL &!"
         <<"     HiCDL & HiCDL & HiCDL &!"
         <<"     HiCDL & HiCDL & HiCDL &!"
