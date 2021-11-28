@@ -8,6 +8,7 @@ int main ()
   long long b2;
   short int c;
   //int是integer的缩写
+  //可以用size_t代替
 
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
