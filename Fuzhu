@@ -1,4 +1,6 @@
 #include <iostream>
+#include <iomanip>
+//配合下面的输出精度
 using namespace std;
 
 int main ()
@@ -6,7 +8,7 @@ int main ()
   float a1;
   double a;
   double b1;
-  long double b2;
+  long double b2; 
   long double b;
   size_t c;
   //int是integer的缩写
@@ -14,8 +16,12 @@ int main ()
   
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
+  //控制cout的显示精度
+  //1.强制以小数方式显示
   cout << fixed;
-
+  //2.控制显示的精度
+  cout << setprecision(8);
+  
   if (c == 4)
     {
       cout << "A side:" << endl;
