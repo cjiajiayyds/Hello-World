@@ -14,6 +14,7 @@ int main ()
   
   cout << "Square press 4;Rectangle/Parallelogram press 22" << endl;
   cin >> c;
+  cout << fixed;
 
   if (c == 4)
     {
