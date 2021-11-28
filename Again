@@ -1,0 +1,25 @@
+incluzde <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"        HiCDL & HiCDL &!"
+        <<"     HiCDL & HiCDL & HiCDL!"
+        <<"     HiCDL & HiCDL & HiCDL &!"
+        <<"  HiCDl & HiCDL & HiCDL & HiCDL!"
+        <<"  HiCDL & HiCDL & HiCDL & HiCDL!"
+        <<"  HiCDL & HiCDL & HiCDL & HiCDL!"
+        <<"     HiCDL & HiCDL & HiCDL &!"
+        <<"     HiCDL & HiCDL & HiCDL &!"
+        <<"     HiCDL & HiCDL & HiCDL &!"
+        <<"        HiCDL & HiCDL & !"
+        <<"        HiCDL & HiCDL & !"
+        <<"              HiCDL&!"
+        <<"              HiCDL!" <<endl;
+   /*如要重复输出，可以把分号和cout省略
+     endl就看你要不要换行，也要把分号省略
+     但到最后一句要有该有的*/
+  
+    return 0;
+}
